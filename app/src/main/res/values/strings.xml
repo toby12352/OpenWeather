@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Roomy Weather</string>
+
+    <string name="loading_error">Unable to fetch forecast data.  Error message: %1$s</string>
+    <string name="action_map_error">No app was found to map the forecast location.  Please install a maps app on your device and try again.</string>
+
+    <string name="forecast_date">%1$tb %1$te</string>
+    <string name="forecast_time">%1$tl:%1$tM %1$tp</string>
+    <string name="forecast_temp">%1$d°%2$s</string>
+    <string name="forecast_pop">%1$d%%</string>
+    <string name="forecast_clouds">%1$d%%</string>
+    <string name="forecast_wind">%1$d%2$s</string>
+    <string name="forecast_date_time">%1$tb %1$te, %1$tl:%1$tM %1$tp</string>
+
+    <string name="action_map_title">View forecast location in map</string>
+    <string name="action_share_title">Share this forecast</string>
+    <string name="action_settings_title">Settings</string>
+
+    <string name="geo_uri">geo:%1$f,%2$f?z=%3$d</string>
+
+    <string name="share_forecast_text">Weather forecast from %1$s for %2$s, %3$s: %4$s with a high of %5$s, a low of %6$s, and a %7$s chance of precipitation.</string>
+    <string name="pref_category_forecast">Forecast settings</string>
+
+    <string name="pref_city_title">City</string>
+    <string name="pref_city_key">city</string>
+
+    <string name="pref_units_title">Weather Units</string>
+    <string name="pref_units_key">units</string>
+
+    <string name="pref_units_entry_imperial">Imperial (e.g. °F)</string>
+    <string name="pref_units_entry_metric">Metric (e.g. °C)</string>
+    <string name="pref_units_entry_standard">Standard (e.g. °K)</string>
+
+    <string name="pref_units_value_imperial">imperial</string>
+    <string name="pref_units_value_metric">metric</string>
+    <string name="pref_units_value_standard">standard</string>
+
+    <string name="pref_units_default_value">@string/pref_units_value_imperial</string>
+
+    <!-- Correct unit display strings for different units preference settings -->
+    <string name="standard_temp_display">K</string>
+    <string name="metric_temp_display">C</string>
+    <string name="imperial_temp_display">F</string>
+    <string name="standard_wind_display">m/s</string>
+    <string name="metric_wind_display">m/s</string>
+    <string name="imperial_wind_display">mph</string>
+
+
+    <string name="label_forecast_list">Forecast List</string>
+    <string name="label_forecast_detail">Forecast Detail</string>
+    <string name="label_setting">Setting</string>
+</resources>
